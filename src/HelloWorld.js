@@ -8,8 +8,7 @@
 
 'use strict';
 
-// need this here for hoisting in jshint
-var someUsefulMessage;
+
 
 function helloWorld() {
     return someUsefulMessage();

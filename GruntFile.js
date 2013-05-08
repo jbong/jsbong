@@ -31,7 +31,7 @@ module.exports = function(grunt) {
             options: {
                 jshintrc : '.jshintrc'
             },
-            beforeconcat: ['src/*.js'],
+            beforeconcat: [ 'src/Utils.js', 'src/HelloWord.js'],
             afterconcat: ['<%= concat.dist.dest %>']
         },
 
