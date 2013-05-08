@@ -6,6 +6,11 @@
  * To change this template use File | Settings | File Templates.
  */
 
+'use strict';
+
+// need this here for hoisting in jshint
+var someUsefulMessage;
+
 function helloWorld() {
     return someUsefulMessage();
 }
