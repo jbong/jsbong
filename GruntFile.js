@@ -52,7 +52,6 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-jshint');
 
     grunt.registerTask('test', ['jasmine', 'jshint:beforeconcat']);
-    // Default task(s).
     grunt.registerTask('default', ['test','concat','jshint:afterconcat' ,'uglify']);
 
 };
