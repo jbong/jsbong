@@ -1,15 +1,22 @@
 {
-    "name": "jsbong",
-    "version": "0.0.1",
-    "description": "test travis/grunt js project",
-    "main": "index.js",
-    "scripts": {
+  "name": "jsbong",
+  "version": "0.0.1",
+  "description": "test travis/grunt js project",
+  "main": "index.js",
+  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/jbong/xxx"
-    },
-    "author": "jbong",
-    "license": "BSD"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jbong/jsbong.git"
+  },
+  "author": "jbong",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jasmine": "~0.4.1",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-jshint": "~0.1.1",
+    "grunt-contrib-concat": "~0.3.0"
+  }
 }
